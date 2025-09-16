@@ -19,6 +19,30 @@ Welcome to the **Photo Editing Framework**, an end-to-end solution for enhancing
 ## Usage
 
 1. **Prepare Images:**
+   Place your unedited images in the input folder:
+
+   ```
+   /home/your_name/Pictures/Images
+   ```
+
+2. **Run the Script:**
+   Execute the Python script to process all images in the input folder, applying the defined edits:
+
+   ```bash
+   python photo_editor.py
+   ```
+
+3. **Output:**
+   Enhanced images will be saved in the output folder:
+
+   ```
+   /home/your_name/Pictures/EditedImages
+   ```
+
+   Original filenames are retained with the `_edited` suffix.
+
+
+1. **Prepare Images:**
    Place your unedited images in the `imgs` folder.
 
 2. **Run the Script:**
