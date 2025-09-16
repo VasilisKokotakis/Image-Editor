@@ -1,50 +1,62 @@
+
+---
+
 # Photo Editing Framework with Python
 
-Welcome to the Photo Editing Framework, an end-to-end solution for enhancing and transforming your images using Python. This comprehensive framework utilizes the powerful PIL library (Pillow) to provide a range of editing functionalities, ensuring that you can effortlessly enhance and modify your photo collection.
+Welcome to the **Photo Editing Framework**, an end-to-end solution for enhancing and transforming your images using Python. This framework leverages the powerful **Pillow (PIL)** library to provide a range of editing functionalities, allowing you to effortlessly enhance and modify your photo collection.
 
 ## Features
 
-- **Sharpening and Black & White Conversion:** The framework employs the ImageFilter module to apply sharpening effects and converts images to grayscale using the 'L' mode. Additionally, it includes a rotation step for creative adjustments.
+* **Sharpening & Black & White Conversion:**
+  Applies sharpening effects and converts images to grayscale using the `'L'` mode. Includes optional rotation for creative adjustments.
 
-- **Contrast Enhancement:** With adjustable contrast levels, the framework allows you to fine-tune the visual appeal of your images. The example showcases a contrast enhancement with a factor of 1.5, providing a vibrant and dynamic look.
+* **Contrast Enhancement:**
+  Adjust the contrast of your images with customizable factors. The example script uses a factor of `1.5` for a vibrant, dynamic look.
 
-- **Extendable and Customizable:** The framework is designed to be easily extendable. Feel free to explore and incorporate additional edits according to your preferences. The documentation for the PIL library provides a comprehensive guide to more editing options ([Pillow Documentation](https://pillow.readthedocs.io/en/stable/)).
+* **Extendable & Customizable:**
+  Designed to be easily extendable. Explore and add additional edits using Pillow’s rich functionality. Full documentation: [Pillow Documentation](https://pillow.readthedocs.io/en/stable/).
 
 ## Usage
 
-1. **Image Input:** Place your unedited images in the designated `imgs` folder.
-2. **Run the Script:** Execute the Python script, and the framework will process each image in the input folder, applying the specified edits.
-3. **Edited Images:** The enhanced images will be saved in the `editedImgs` folder, retaining the original filenames with the "_edited" suffix.
+1. **Prepare Images:**
+   Place your unedited images in the `imgs` folder.
+
+2. **Run the Script:**
+   Execute the Python script to process all images in the input folder, applying the defined edits.
+
+3. **Output:**
+   Enhanced images will be saved in the `editedImgs` folder, keeping original filenames with the `_edited` suffix.
 
 ## Getting Started
 
-To get started with the Photo Editing Framework, follow these steps:
+Follow these steps to set up and run the framework:
 
-1. Clone the repository:
+1. **Clone the repository:**
 
-    ```bash
-    git clone https://github.com/your-username/photo-editing-framework.git
-    ```
+   ```bash
+   git clone https://github.com/your-username/photo-editing-framework.git
+   cd photo-editing-framework
+   ```
 
-2. Navigate to the project directory:
+2. **Install dependencies:**
 
-    ```bash
-    cd photo-editing-framework
-    ```
+   ```bash
+   pip install pillow
+   ```
 
-3. Install the required dependencies:
+3. **Run the script:**
 
-    ```bash
-    pip install pillow
-    ```
+   ```bash
+   python photo_editor.py
+   ```
 
-4. Customize the script according to your preferences or explore additional editing options from the Pillow documentation.
+4. **Customize:**
+   Modify the script to add more edits or adjust parameters based on your creative needs.
 
-5. Run the script:
+## License
 
-    ```bash
-    python photo_editor.py
-    ```
+MIT License © \ Vasilis Kokotakis
 
-Feel free to experiment and enhance the framework further based on your creative needs. Happy editing!
-# Image-Editor
+---
+
+
