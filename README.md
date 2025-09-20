@@ -58,7 +58,7 @@ Follow these steps to set up and run the framework:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/Image-Editor.git
+   git clone https://github.com/VasilisKokotakis/Image-Editor.git
    cd photo-editing-framework
    ```
 
