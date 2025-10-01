@@ -59,7 +59,7 @@ Follow these steps to set up and run the framework:
 
    ```bash
    git clone https://github.com/VasilisKokotakis/Image-Editor.git
-   cd photo-editing-framework
+   cd Image-Editor
    ```
 
 2. **Install dependencies:**
