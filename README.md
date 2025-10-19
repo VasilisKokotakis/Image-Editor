@@ -79,8 +79,5 @@ Follow these steps to set up and run the framework:
 
 ## License
 
-MIT License © \ Vasilis Kokotakis
-
----
-
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
